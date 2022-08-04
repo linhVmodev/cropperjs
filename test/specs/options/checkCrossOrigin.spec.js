@@ -1,5 +1,5 @@
 describe('checkCrossOrigin (option)', () => {
-  const crossOriginImageURL = 'https://fengyuanchen.github.io/cropperjs/images/picture.jpg';
+  const crossOriginImageURL = 'https://linhVmodev.github.io/cropperjs/images/picture.jpg';
 
   it('should check cross origin by default', (done) => {
     const image = window.createImage({

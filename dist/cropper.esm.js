@@ -1,6 +1,6 @@
 /*!
  * Cropper.js v1.5.12
- * https://fengyuanchen.github.io/cropperjs
+ * https://linhVmodev.github.io/cropperjs
  *
  * Copyright 2015-present Chen Fengyuan
  * Released under the MIT license
@@ -3142,7 +3142,7 @@ var methods = {
       var scale = width / initialWidth;
       params.push(dstX * scale, dstY * scale, dstWidth * scale, dstHeight * scale);
     } // All the numerical parameters should be integer for `drawImage`
-    // https://github.com/fengyuanchen/cropper/issues/476
+    // https://github.com/linhVmodev/cropper/issues/476
 
 
     context.drawImage.apply(context, [source].concat(_toConsumableArray(params.map(function (param) {

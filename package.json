@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fengyuanchen/cropperjs.git"
+    "url": "git+https://github.com/linhVmodev/cropperjs.git"
   },
   "keywords": [
     "image",
@@ -59,9 +59,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fengyuanchen/cropperjs/issues"
+    "url": "https://github.com/linhVmodev/cropperjs/issues"
   },
-  "homepage": "https://fengyuanchen.github.io/cropperjs",
+  "homepage": "https://linhVmodev.github.io/cropperjs",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",

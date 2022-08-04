@@ -2,11 +2,11 @@
 
 [![Downloads](https://img.shields.io/npm/dm/cropperjs.svg)](https://www.npmjs.com/package/cropperjs) [![Version](https://img.shields.io/npm/v/cropperjs.svg)](https://www.npmjs.com/package/cropperjs) [![Gzip Size](https://img.shields.io/bundlephobia/minzip/cropperjs.svg)](https://unpkg.com/cropperjs/dist/cropper.common.js)
 
-> JavaScript image cropper. This is the branch for v1.x, for v2.x, check out the [`v2`](https://github.com/fengyuanchen/cropperjs/tree/v2) branch.
+> JavaScript image cropper. This is the branch for v1.x, for v2.x, check out the [`v2`](https://github.com/linhVmodev/cropperjs/tree/v2) branch.
 
-- [Website](https://fengyuanchen.github.io/cropperjs)
-- [Photo Editor](https://fengyuanchen.github.io/photo-editor) - An advanced example of Cropper.js.
-- [jquery-cropper](https://github.com/fengyuanchen/jquery-cropper) - A jQuery plugin wrapper for Cropper.js.
+- [Website](https://linhVmodev.github.io/cropperjs)
+- [Photo Editor](https://linhVmodev.github.io/photo-editor) - An advanced example of Cropper.js.
+- [jquery-cropper](https://github.com/linhVmodev/jquery-cropper) - A jQuery plugin wrapper for Cropper.js.
 
 ## Table of contents
 
@@ -257,7 +257,7 @@ If the value of the image's `crossOrigin` attribute is `"use-credentials"`, then
 
 Check the current image's Exif Orientation information. Note that only a JPEG image may contain Exif Orientation information.
 
-Exactly, read the Orientation value for rotating or flipping the image, and then override the Orientation value with `1` (the default value) to avoid some issues ([1](https://github.com/fengyuanchen/cropper/issues/120), [2](https://github.com/fengyuanchen/cropper/issues/509)) on iOS devices.
+Exactly, read the Orientation value for rotating or flipping the image, and then override the Orientation value with `1` (the default value) to avoid some issues ([1](https://github.com/linhVmodev/cropper/issues/120), [2](https://github.com/linhVmodev/cropper/issues/509)) on iOS devices.
 
 Requires to set both the `rotatable` and `scalable` options to `true` at the same time.
 

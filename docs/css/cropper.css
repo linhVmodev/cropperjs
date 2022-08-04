@@ -1,6 +1,6 @@
 /*!
  * Cropper.js v1.5.12
- * https://fengyuanchen.github.io/cropperjs
+ * https://linhVmodev.github.io/cropperjs
  *
  * Copyright 2015-present Chen Fengyuan
  * Released under the MIT license
