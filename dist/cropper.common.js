@@ -707,16 +707,16 @@ function addListener(element, type, listener) {
 function dispatchEvent(element, type, data) {
   var event; // Event and CustomEvent on IE9-11 are global objects, not constructors
 
-  if (isFunction(Event) && isFunction(CustomEvent)) {
-    event = new CustomEvent(type, {
-      detail: data,
-      bubbles: true,
-      cancelable: true
-    });
-  } else {
+  // if (isFunction(Event) && isFunction(CustomEvent)) {
+  //   event = new CustomEvent(type, {
+  //     detail: data,
+  //     bubbles: true,
+  //     cancelable: true
+  //   });
+  // } else {
     event = document.createEvent('CustomEvent');
     event.initCustomEvent(type, true, true, data);
-  }
+  // }
 
   return element.dispatchEvent(event);
 }
